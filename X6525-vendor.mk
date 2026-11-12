@@ -40,7 +40,7 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6525/proprietary/odm/etc/camera/3rdpool/samplenode/tuning/sample_tuning_1.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/3rdpool/samplenode/tuning/sample_tuning_1.txt \
     vendor/infinix/X6525/proprietary/odm/etc/camera/3rdpool/samplenode/tuning/sample_tuning_2.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/3rdpool/samplenode/tuning/sample_tuning_2.txt \
     vendor/infinix/X6525/proprietary/odm/etc/doubleloss_large.model:$(TARGET_COPY_OUT_ODM)/etc/doubleloss_large.model \
-    vendor/infinix/X6525/proprietary/odm/etc/init/wcn.rc:$(TARGET_COPY_OUT_ODM)/etc/init/wcn.rc \
+    vendor/infinix/X6525/proprietary/odm/etc/init/infinix-wcn.rc:$(TARGET_COPY_OUT_ODM)/etc/init/infinix-wcn.rc \
     vendor/infinix/X6525/proprietary/odm/etc/isppipeline/Pipeline_Linkage.json:$(TARGET_COPY_OUT_ODM)/etc/isppipeline/Pipeline_Linkage.json \
     vendor/infinix/X6525/proprietary/odm/etc/isppipeline/props.xml:$(TARGET_COPY_OUT_ODM)/etc/isppipeline/props.xml \
     vendor/infinix/X6525/proprietary/odm/etc/license_debug.lic:$(TARGET_COPY_OUT_ODM)/etc/license_debug.lic \
@@ -813,8 +813,8 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6525/proprietary/odm/logo/time_vert_48x24x13.yuv:$(TARGET_COPY_OUT_ODM)/logo/time_vert_48x24x13.yuv \
     vendor/infinix/X6525/proprietary/odm/logo/time_vert_72x36x13.rgba:$(TARGET_COPY_OUT_ODM)/logo/time_vert_72x36x13.rgba \
     vendor/infinix/X6525/proprietary/odm/logo/time_vert_72x36x13.yuv:$(TARGET_COPY_OUT_ODM)/logo/time_vert_72x36x13.yuv \
-    vendor/infinix/X6525/proprietary/system_ext/etc/init/dataLogDaemon.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dataLogDaemon.rc \
-    vendor/infinix/X6525/proprietary/system_ext/etc/init/data_rps.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/data_rps.rc \
+    vendor/infinix/X6525/proprietary/system_ext/etc/init/infinix-dataLogDaemon.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/infinix-dataLogDaemon.rc \
+    vendor/infinix/X6525/proprietary/system_ext/etc/init/infinix-data_rps.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/infinix-data_rps.rc \
     vendor/infinix/X6525/proprietary/vendor/bin/adbtestmode:$(TARGET_COPY_OUT_VENDOR)/bin/adbtestmode \
     vendor/infinix/X6525/proprietary/vendor/bin/aiactiver_testbench:$(TARGET_COPY_OUT_VENDOR)/bin/aiactiver_testbench \
     vendor/infinix/X6525/proprietary/vendor/bin/antiflashing:$(TARGET_COPY_OUT_VENDOR)/bin/antiflashing \
@@ -1025,87 +1025,87 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6525/proprietary/vendor/etc/icap/control/scenes/Type_Preview.xml:$(TARGET_COPY_OUT_VENDOR)/etc/icap/control/scenes/Type_Preview.xml \
     vendor/infinix/X6525/proprietary/vendor/etc/icap/control/scenes/Type_Video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/icap/control/scenes/Type_Video.xml \
     vendor/infinix/X6525/proprietary/vendor/etc/imsUserAgent.xml:$(TARGET_COPY_OUT_VENDOR)/etc/imsUserAgent.xml \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/adbtestmode.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/adbtestmode.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/ai_engine-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ai_engine-default.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-adbtestmode.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-adbtestmode.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-ai_engine-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-ai_engine-default.rc \
     vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-android.hardware.audio.service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-android.hardware.audio.service.rc \
     vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-android.hardware.biometrics.fingerprint@2.1-service.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/android.hardware.bluetooth@1.1-service.unisoc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.1-service.unisoc.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-android.hardware.bluetooth@1.1-service.unisoc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-android.hardware.bluetooth@1.1-service.unisoc.rc \
     vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-android.hardware.camera.provider@2.4-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-android.hardware.camera.provider@2.4-service.rc \
     vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-android.hardware.cas@1.2-service-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-android.hardware.cas@1.2-service-lazy.rc \
     vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-android.hardware.drm-service-lazy.clearkey.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-android.hardware.drm-service-lazy.clearkey.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/android.hardware.drm-service-lazy.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm-service-lazy.widevine.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/android.hardware.drm-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm-service.widevine.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-android.hardware.drm-service-lazy.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-android.hardware.drm-service-lazy.widevine.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-android.hardware.drm-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-android.hardware.drm-service.widevine.rc \
     vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-android.hardware.gatekeeper@1.0-service.trusty.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-android.hardware.gatekeeper@1.0-service.trusty.rc \
     vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-android.hardware.graphics.allocator@4.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-android.hardware.graphics.allocator@4.0-service.rc \
     vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-android.hardware.graphics.composer@2.4-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-android.hardware.graphics.composer@2.4-service.rc \
     vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-android.hardware.health-service.example.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-android.hardware.health-service.example.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/android.hardware.media.c2@1.1-unisoc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.c2@1.1-unisoc-service.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-android.hardware.media.c2@1.1-unisoc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-android.hardware.media.c2@1.1-unisoc-service.rc \
     vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-android.hardware.media.omx@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-android.hardware.media.omx@1.0-service.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.3-service-armnn-gpu.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.3-service-armnn-gpu.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/android.hardware.security.keymint@2.0-unisoc.service.trusty.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint@2.0-unisoc.service.trusty.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-android.hardware.neuralnetworks@1.3-service-armnn-gpu.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-android.hardware.neuralnetworks@1.3-service-armnn-gpu.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-android.hardware.security.keymint@2.0-unisoc.service.trusty.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-android.hardware.security.keymint@2.0-unisoc.service.trusty.rc \
     vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-android.hardware.sensors-service-multihal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-android.hardware.sensors-service-multihal.rc \
     vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-android.hardware.usb-service.example.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-android.hardware.usb-service.example.rc \
     vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-android.hardware.wifi.supplicant-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-android.hardware.wifi.supplicant-service.rc \
     vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-android.hardware.wifi@1.0-service-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-android.hardware.wifi@1.0-service-lazy.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/antiflashing.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/antiflashing.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/autotest.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/autotest.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-antiflashing.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-antiflashing.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-autotest.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-autotest.rc \
     vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-boringssl_self_test.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-boringssl_self_test.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/charge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/charge.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/charged.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/charged.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/connmgr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/connmgr.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/cp_diskserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cp_diskserver.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/cplog_svc-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cplog_svc-default.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/dcxsrv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dcxsrv.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/engpc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/engpc.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/enhance-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/enhance-default.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-charge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-charge.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-charged.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-charged.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-connmgr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-connmgr.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-cp_diskserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-cp_diskserver.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-cplog_svc-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-cplog_svc-default.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-dcxsrv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-dcxsrv.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-engpc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-engpc.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-enhance-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-enhance-default.rc \
     vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-face-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-face-default.rc \
     vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-hostapd.android.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-hostapd.android.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/init.charge.common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.charge.common.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/init.dts.common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.dts.common.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/init.fpsmgr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fpsmgr.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/init.md.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.md.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/init.project.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.project.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/init.storage_feature_cloudctl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.storage_feature_cloudctl.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/init.tran.common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.tran.common.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/init.tran.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.tran.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/init.tranlog.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.tranlog.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/init.tranlogconfig.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.tranlogconfig.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/modem_control.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/modem_control.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/network-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/network-default.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/phasecheckserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/phasecheckserver.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/power.stats-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/power.stats-default.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/refnotify.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/refnotify.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/rpmbserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/rpmbserver.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/slogmodem_vendor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/slogmodem_vendor.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/soter-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/soter-default.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/srtd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/srtd.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/storageproxyd_androidr_transsion.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/storageproxyd_androidr_transsion.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/systemDebuggerd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/systemDebuggerd.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/tee_rpc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tee_rpc.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/thermald.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/thermald.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/tnev.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tnev.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/trusty-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/trusty-default.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/tsupplicant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tsupplicant.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/turbocloudservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/turbocloudservice.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/turbopower.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/turbopower.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/unisoc.rild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/unisoc.rild.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/vendor-fingerprintmmi-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor-fingerprintmmi-default.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/vendor-oemlock-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor-oemlock-default.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/vendor-power-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor-power-default.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/vendor.log-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.log-default.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/vendor.silead.hardware.fingerprintext@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.silead.hardware.fingerprintext@1.0-service.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/vendor.silead.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.silead.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/vendor.sprd.hardware.algoservice@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sprd.hardware.algoservice@1.0-service.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/vendor.sprd.hardware.boot@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sprd.hardware.boot@1.2-service.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/vendor.sprd.hardware.broadcastradio@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sprd.hardware.broadcastradio@2.0-service.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/vendor.sprd.hardware.combined@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sprd.hardware.combined@1.0-service.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/vendor.sprd.hardware.connmgr@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sprd.hardware.connmgr@1.0-service.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/vendor.sprd.hardware.gnss@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sprd.hardware.gnss@2.2-service.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/vendor.sprd.hardware.tranHwInfo@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sprd.hardware.tranHwInfo@1.0-service.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/vendor.sprd.hardware.wcn@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sprd.hardware.wcn@1.0-service.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-init.charge.common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-init.charge.common.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-init.dts.common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-init.dts.common.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-init.fpsmgr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-init.fpsmgr.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-init.md.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-init.md.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-init.project.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-init.project.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-init.storage_feature_cloudctl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-init.storage_feature_cloudctl.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-init.tran.common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-init.tran.common.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-init.tran.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-init.tran.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-init.tranlog.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-init.tranlog.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-init.tranlogconfig.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-init.tranlogconfig.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-modem_control.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-modem_control.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-network-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-network-default.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-phasecheckserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-phasecheckserver.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-power.stats-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-power.stats-default.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-refnotify.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-refnotify.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-rpmbserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-rpmbserver.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-slogmodem_vendor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-slogmodem_vendor.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-soter-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-soter-default.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-srtd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-srtd.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-storageproxyd_androidr_transsion.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-storageproxyd_androidr_transsion.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-systemDebuggerd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-systemDebuggerd.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-tee_rpc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-tee_rpc.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-thermald.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-thermald.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-tnev.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-tnev.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-trusty-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-trusty-default.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-tsupplicant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-tsupplicant.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-turbocloudservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-turbocloudservice.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-turbopower.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-turbopower.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-unisoc.rild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-unisoc.rild.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-vendor-fingerprintmmi-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-vendor-fingerprintmmi-default.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-vendor-oemlock-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-vendor-oemlock-default.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-vendor-power-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-vendor-power-default.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-vendor.log-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-vendor.log-default.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-vendor.silead.hardware.fingerprintext@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-vendor.silead.hardware.fingerprintext@1.0-service.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-vendor.silead.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-vendor.silead.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-vendor.sprd.hardware.algoservice@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-vendor.sprd.hardware.algoservice@1.0-service.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-vendor.sprd.hardware.boot@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-vendor.sprd.hardware.boot@1.2-service.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-vendor.sprd.hardware.broadcastradio@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-vendor.sprd.hardware.broadcastradio@2.0-service.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-vendor.sprd.hardware.combined@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-vendor.sprd.hardware.combined@1.0-service.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-vendor.sprd.hardware.connmgr@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-vendor.sprd.hardware.connmgr@1.0-service.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-vendor.sprd.hardware.gnss@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-vendor.sprd.hardware.gnss@2.2-service.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-vendor.sprd.hardware.tranHwInfo@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-vendor.sprd.hardware.tranHwInfo@1.0-service.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-vendor.sprd.hardware.wcn@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-vendor.sprd.hardware.wcn@1.0-service.rc \
     vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-vndservicemanager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-vndservicemanager.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/vowifi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vowifi.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/yloglite.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/yloglite.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-vowifi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-vowifi.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-yloglite.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-yloglite.rc \
     vendor/infinix/X6525/proprietary/vendor/etc/lmkd_param.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lmkd_param.conf \
     vendor/infinix/X6525/proprietary/vendor/etc/log_settings.xml:$(TARGET_COPY_OUT_VENDOR)/etc/log_settings.xml \
     vendor/infinix/X6525/proprietary/vendor/etc/log_settings_autotest.xml:$(TARGET_COPY_OUT_VENDOR)/etc/log_settings_autotest.xml \
@@ -4486,36 +4486,36 @@ PRODUCT_PACKAGES += \
     UASetting \
     SoterService \
     ims \
-    ai_engine-default \
+    infinix-ai_engine-default \
     infinix-android.hardware.biometrics.fingerprint@2.1-service \
     infinix-android.hardware.cas@1.2-service-lazy \
     infinix-android.hardware.drm-service.clearkey \
     infinix-android.hardware.gatekeeper@1.0-service.trusty \
     infinix-android.hardware.health-service.example \
-    android.hardware.security.keymint@2.0-unisoc.service.trusty \
+    infinix-android.hardware.security.keymint@2.0-unisoc.service.trusty \
     infinix-android.hardware.sensors-multihal \
     infinix-android.hardware.usb-service.example \
     infinix-android.hardware.wifi.hostapd \
     infinix-android.hardware.wifi.supplicant \
     infinix-android.hardware.wifi@1.0-service \
     infinix-bluetooth_audio \
-    combinedservice \
-    cplog_svc-default \
-    enhance-default \
+    infinix-combinedservice \
+    infinix-cplog_svc-default \
+    infinix-enhance-default \
     vendor.sprd.hardware.biometrics.face \
-    manifest_android.hardware.drm-service.widevine \
-    manifest_dualsim \
-    manifest_media_c2_V1_1_unisoc \
-    manifest_tneengine \
-    network-default \
-    power.stats-default \
-    soter_default \
-    trusty-default \
-    vendor-fingerprintmmi-default \
-    vendor-log-default \
-    vendor-oemlock-default \
-    vendor-power-default \
-    vendor.sprd.hardware.boot@1.2 \
-    vendor.sprd.hardware.gnss@2.2-service \
-    vendor.sprd.hardware.tranHwInfo@1.0 \
-    manifest_kernel
+    infinix-manifest_android.hardware.drm-service.widevine \
+    infinix-manifest_dualsim \
+    infinix-manifest_media_c2_V1_1_unisoc \
+    infinix-manifest_tneengine \
+    infinix-network-default \
+    infinix-power.stats-default \
+    infinix-soter_default \
+    infinix-trusty-default \
+    infinix-vendor-fingerprintmmi-default \
+    infinix-vendor-log-default \
+    infinix-vendor-oemlock-default \
+    infinix-vendor-power-default \
+    infinix-vendor.sprd.hardware.boot@1.2 \
+    infinix-vendor.sprd.hardware.gnss@2.2-service \
+    infinix-vendor.sprd.hardware.tranHwInfo@1.0 \
+    infinix-manifest_kernel
