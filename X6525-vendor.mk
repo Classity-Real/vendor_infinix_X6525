@@ -1027,29 +1027,29 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6525/proprietary/vendor/etc/imsUserAgent.xml:$(TARGET_COPY_OUT_VENDOR)/etc/imsUserAgent.xml \
     vendor/infinix/X6525/proprietary/vendor/etc/init/adbtestmode.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/adbtestmode.rc \
     vendor/infinix/X6525/proprietary/vendor/etc/init/ai_engine-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ai_engine-default.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/android.hardware.audio.service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio.service.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-android.hardware.audio.service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-android.hardware.audio.service.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/infinix/X6525/proprietary/vendor/etc/init/android.hardware.bluetooth@1.1-service.unisoc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.1-service.unisoc.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/android.hardware.camera.provider@2.4-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.camera.provider@2.4-service.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/android.hardware.cas@1.2-service-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.cas@1.2-service-lazy.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/android.hardware.drm-service-lazy.clearkey.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm-service-lazy.clearkey.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-android.hardware.camera.provider@2.4-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-android.hardware.camera.provider@2.4-service.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-android.hardware.cas@1.2-service-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-android.hardware.cas@1.2-service-lazy.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-android.hardware.drm-service-lazy.clearkey.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-android.hardware.drm-service-lazy.clearkey.rc \
     vendor/infinix/X6525/proprietary/vendor/etc/init/android.hardware.drm-service-lazy.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm-service-lazy.widevine.rc \
     vendor/infinix/X6525/proprietary/vendor/etc/init/android.hardware.drm-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm-service.widevine.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service.trusty.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service.trusty.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/android.hardware.graphics.composer@2.4-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@2.4-service.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/android.hardware.health-service.example.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health-service.example.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-android.hardware.gatekeeper@1.0-service.trusty.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-android.hardware.gatekeeper@1.0-service.trusty.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-android.hardware.graphics.allocator@4.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-android.hardware.graphics.allocator@4.0-service.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-android.hardware.graphics.composer@2.4-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-android.hardware.graphics.composer@2.4-service.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-android.hardware.health-service.example.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-android.hardware.health-service.example.rc \
     vendor/infinix/X6525/proprietary/vendor/etc/init/android.hardware.media.c2@1.1-unisoc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.c2@1.1-unisoc-service.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/android.hardware.media.omx@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.omx@1.0-service.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-android.hardware.media.omx@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-android.hardware.media.omx@1.0-service.rc \
     vendor/infinix/X6525/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.3-service-armnn-gpu.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.3-service-armnn-gpu.rc \
     vendor/infinix/X6525/proprietary/vendor/etc/init/android.hardware.security.keymint@2.0-unisoc.service.trusty.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint@2.0-unisoc.service.trusty.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/android.hardware.sensors-service-multihal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors-service-multihal.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/android.hardware.usb-service.example.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb-service.example.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/android.hardware.wifi.supplicant-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi.supplicant-service.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/android.hardware.wifi@1.0-service-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi@1.0-service-lazy.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-android.hardware.sensors-service-multihal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-android.hardware.sensors-service-multihal.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-android.hardware.usb-service.example.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-android.hardware.usb-service.example.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-android.hardware.wifi.supplicant-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-android.hardware.wifi.supplicant-service.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-android.hardware.wifi@1.0-service-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-android.hardware.wifi@1.0-service-lazy.rc \
     vendor/infinix/X6525/proprietary/vendor/etc/init/antiflashing.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/antiflashing.rc \
     vendor/infinix/X6525/proprietary/vendor/etc/init/autotest.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/autotest.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/boringssl_self_test.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/boringssl_self_test.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-boringssl_self_test.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-boringssl_self_test.rc \
     vendor/infinix/X6525/proprietary/vendor/etc/init/charge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/charge.rc \
     vendor/infinix/X6525/proprietary/vendor/etc/init/charged.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/charged.rc \
     vendor/infinix/X6525/proprietary/vendor/etc/init/connmgr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/connmgr.rc \
@@ -1058,8 +1058,8 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6525/proprietary/vendor/etc/init/dcxsrv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dcxsrv.rc \
     vendor/infinix/X6525/proprietary/vendor/etc/init/engpc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/engpc.rc \
     vendor/infinix/X6525/proprietary/vendor/etc/init/enhance-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/enhance-default.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/face-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/face-default.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/hostapd.android.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hostapd.android.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-face-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-face-default.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-hostapd.android.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-hostapd.android.rc \
     vendor/infinix/X6525/proprietary/vendor/etc/init/init.charge.common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.charge.common.rc \
     vendor/infinix/X6525/proprietary/vendor/etc/init/init.dts.common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.dts.common.rc \
     vendor/infinix/X6525/proprietary/vendor/etc/init/init.fpsmgr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fpsmgr.rc \
@@ -1103,7 +1103,7 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6525/proprietary/vendor/etc/init/vendor.sprd.hardware.gnss@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sprd.hardware.gnss@2.2-service.rc \
     vendor/infinix/X6525/proprietary/vendor/etc/init/vendor.sprd.hardware.tranHwInfo@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sprd.hardware.tranHwInfo@1.0-service.rc \
     vendor/infinix/X6525/proprietary/vendor/etc/init/vendor.sprd.hardware.wcn@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sprd.hardware.wcn@1.0-service.rc \
-    vendor/infinix/X6525/proprietary/vendor/etc/init/vndservicemanager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vndservicemanager.rc \
+    vendor/infinix/X6525/proprietary/vendor/etc/init/infinix-vndservicemanager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/infinix-vndservicemanager.rc \
     vendor/infinix/X6525/proprietary/vendor/etc/init/vowifi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vowifi.rc \
     vendor/infinix/X6525/proprietary/vendor/etc/init/yloglite.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/yloglite.rc \
     vendor/infinix/X6525/proprietary/vendor/etc/lmkd_param.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lmkd_param.conf \
@@ -4487,18 +4487,18 @@ PRODUCT_PACKAGES += \
     SoterService \
     ims \
     ai_engine-default \
-    android.hardware.biometrics.fingerprint@2.1-service \
-    android.hardware.cas@1.2-service-lazy \
-    android.hardware.drm-service.clearkey \
-    android.hardware.gatekeeper@1.0-service.trusty \
-    android.hardware.health-service.example \
+    infinix-android.hardware.biometrics.fingerprint@2.1-service \
+    infinix-android.hardware.cas@1.2-service-lazy \
+    infinix-android.hardware.drm-service.clearkey \
+    infinix-android.hardware.gatekeeper@1.0-service.trusty \
+    infinix-android.hardware.health-service.example \
     android.hardware.security.keymint@2.0-unisoc.service.trusty \
-    android.hardware.sensors-multihal \
-    android.hardware.usb-service.example \
-    android.hardware.wifi.hostapd \
-    android.hardware.wifi.supplicant \
-    android.hardware.wifi@1.0-service \
-    bluetooth_audio \
+    infinix-android.hardware.sensors-multihal \
+    infinix-android.hardware.usb-service.example \
+    infinix-android.hardware.wifi.hostapd \
+    infinix-android.hardware.wifi.supplicant \
+    infinix-android.hardware.wifi@1.0-service \
+    infinix-bluetooth_audio \
     combinedservice \
     cplog_svc-default \
     enhance-default \
