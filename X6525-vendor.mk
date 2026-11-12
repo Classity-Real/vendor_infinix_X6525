@@ -4502,7 +4502,7 @@ PRODUCT_PACKAGES += \
     combinedservice \
     cplog_svc-default \
     enhance-default \
-    face-default \
+    vendor.sprd.hardware.biometrics.face \
     manifest_android.hardware.drm-service.widevine \
     manifest_dualsim \
     manifest_media_c2_V1_1_unisoc \
