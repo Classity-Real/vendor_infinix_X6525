@@ -820,6 +820,8 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6525/proprietary/vendor/bin/antiflashing:$(TARGET_COPY_OUT_VENDOR)/bin/antiflashing \
     vendor/infinix/X6525/proprietary/vendor/bin/audiodumpclient:$(TARGET_COPY_OUT_VENDOR)/bin/audiodumpclient \
     vendor/infinix/X6525/proprietary/vendor/bin/bootcheckbox:$(TARGET_COPY_OUT_VENDOR)/bin/bootcheckbox \
+    vendor/infinix/X6525/proprietary/vendor/bin/boringssl_self_test32:$(TARGET_COPY_OUT_VENDOR)/bin/boringssl_self_test32 \
+    vendor/infinix/X6525/proprietary/vendor/bin/boringssl_self_test64:$(TARGET_COPY_OUT_VENDOR)/bin/boringssl_self_test64 \
     vendor/infinix/X6525/proprietary/vendor/bin/btools:$(TARGET_COPY_OUT_VENDOR)/bin/btools \
     vendor/infinix/X6525/proprietary/vendor/bin/charge:$(TARGET_COPY_OUT_VENDOR)/bin/charge \
     vendor/infinix/X6525/proprietary/vendor/bin/charged:$(TARGET_COPY_OUT_VENDOR)/bin/charged \
@@ -829,18 +831,31 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6525/proprietary/vendor/bin/cp_dump_dbg:$(TARGET_COPY_OUT_VENDOR)/bin/cp_dump_dbg \
     vendor/infinix/X6525/proprietary/vendor/bin/cplogctl:$(TARGET_COPY_OUT_VENDOR)/bin/cplogctl \
     vendor/infinix/X6525/proprietary/vendor/bin/dcxsrv:$(TARGET_COPY_OUT_VENDOR)/bin/dcxsrv \
+    vendor/infinix/X6525/proprietary/vendor/bin/dumpsys:$(TARGET_COPY_OUT_VENDOR)/bin/dumpsys \
     vendor/infinix/X6525/proprietary/vendor/bin/engpc:$(TARGET_COPY_OUT_VENDOR)/bin/engpc \
     vendor/infinix/X6525/proprietary/vendor/bin/engpcctl:$(TARGET_COPY_OUT_VENDOR)/bin/engpcctl \
     vendor/infinix/X6525/proprietary/vendor/bin/enhance_test:$(TARGET_COPY_OUT_VENDOR)/bin/enhance_test \
     vendor/infinix/X6525/proprietary/vendor/bin/fpsmgr:$(TARGET_COPY_OUT_VENDOR)/bin/fpsmgr \
     vendor/infinix/X6525/proprietary/vendor/bin/gpsd:$(TARGET_COPY_OUT_VENDOR)/bin/gpsd \
+    vendor/infinix/X6525/proprietary/vendor/bin/hw/android.hardware.audio.service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.audio.service \
+    vendor/infinix/X6525/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
     vendor/infinix/X6525/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.1-service.unisoc:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.1-service.unisoc \
+    vendor/infinix/X6525/proprietary/vendor/bin/hw/android.hardware.camera.provider@2.4-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.camera.provider@2.4-service \
+    vendor/infinix/X6525/proprietary/vendor/bin/hw/android.hardware.cas@1.2-service-lazy:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.cas@1.2-service-lazy \
+    vendor/infinix/X6525/proprietary/vendor/bin/hw/android.hardware.drm-service-lazy.clearkey:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm-service-lazy.clearkey \
     vendor/infinix/X6525/proprietary/vendor/bin/hw/android.hardware.drm-service-lazy.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm-service-lazy.widevine \
     vendor/infinix/X6525/proprietary/vendor/bin/hw/android.hardware.drm-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm-service.widevine \
+    vendor/infinix/X6525/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service.trusty:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service.trusty \
     vendor/infinix/X6525/proprietary/vendor/bin/hw/android.hardware.graphics.allocator@4.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.allocator@4.0-service \
+    vendor/infinix/X6525/proprietary/vendor/bin/hw/android.hardware.graphics.composer@2.4-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.composer@2.4-service \
+    vendor/infinix/X6525/proprietary/vendor/bin/hw/android.hardware.health-service.example:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.health-service.example \
     vendor/infinix/X6525/proprietary/vendor/bin/hw/android.hardware.media.c2@1.1-unisoc-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.media.c2@1.1-unisoc-service \
+    vendor/infinix/X6525/proprietary/vendor/bin/hw/android.hardware.media.omx@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.media.omx@1.0-service \
     vendor/infinix/X6525/proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-armnn-gpu:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.3-service-armnn-gpu \
+    vendor/infinix/X6525/proprietary/vendor/bin/hw/android.hardware.power.stats-service.example:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.power.stats-service.example \
     vendor/infinix/X6525/proprietary/vendor/bin/hw/android.hardware.security.keymint@2.0-unisoc.service.trusty:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.security.keymint@2.0-unisoc.service.trusty \
+    vendor/infinix/X6525/proprietary/vendor/bin/hw/android.hardware.sensors-service.multihal:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors-service.multihal \
+    vendor/infinix/X6525/proprietary/vendor/bin/hw/android.hardware.usb-service.example:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb-service.example \
     vendor/infinix/X6525/proprietary/vendor/bin/hw/android.hardware.wifi@1.0-service-lazy:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.wifi@1.0-service-lazy \
     vendor/infinix/X6525/proprietary/vendor/bin/hw/hostapd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/hostapd \
     vendor/infinix/X6525/proprietary/vendor/bin/hw/urild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/urild \
@@ -907,6 +922,7 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6525/proprietary/vendor/bin/power/tops/tops:$(TARGET_COPY_OUT_VENDOR)/bin/power/tops/tops \
     vendor/infinix/X6525/proprietary/vendor/bin/power/total/readme:$(TARGET_COPY_OUT_VENDOR)/bin/power/total/readme \
     vendor/infinix/X6525/proprietary/vendor/bin/refnotify:$(TARGET_COPY_OUT_VENDOR)/bin/refnotify \
+    vendor/infinix/X6525/proprietary/vendor/bin/rkp_factory_extraction_tool:$(TARGET_COPY_OUT_VENDOR)/bin/rkp_factory_extraction_tool \
     vendor/infinix/X6525/proprietary/vendor/bin/rpmbserver:$(TARGET_COPY_OUT_VENDOR)/bin/rpmbserver \
     vendor/infinix/X6525/proprietary/vendor/bin/slogmodem_vendor:$(TARGET_COPY_OUT_VENDOR)/bin/slogmodem_vendor \
     vendor/infinix/X6525/proprietary/vendor/bin/sprdstorageproxyd:$(TARGET_COPY_OUT_VENDOR)/bin/sprdstorageproxyd \
@@ -1116,6 +1132,7 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6525/proprietary/vendor/etc/midtest/mode/ModeConfig.json:$(TARGET_COPY_OUT_VENDOR)/etc/midtest/mode/ModeConfig.json \
     vendor/infinix/X6525/proprietary/vendor/etc/midtest/mode/QT.json:$(TARGET_COPY_OUT_VENDOR)/etc/midtest/mode/QT.json \
     vendor/infinix/X6525/proprietary/vendor/etc/midtest/mode/QT2.json:$(TARGET_COPY_OUT_VENDOR)/etc/midtest/mode/QT2.json \
+    vendor/infinix/X6525/proprietary/vendor/etc/mkshrc:$(TARGET_COPY_OUT_VENDOR)/etc/mkshrc \
     vendor/infinix/X6525/proprietary/vendor/etc/models/noahark/gesture/tsn_gesture:$(TARGET_COPY_OUT_VENDOR)/etc/models/noahark/gesture/tsn_gesture \
     vendor/infinix/X6525/proprietary/vendor/etc/models/noahark/imageClassify/README.md:$(TARGET_COPY_OUT_VENDOR)/etc/models/noahark/imageClassify/README.md \
     vendor/infinix/X6525/proprietary/vendor/etc/models/noahark/imageClassify/cv_imageClassify:$(TARGET_COPY_OUT_VENDOR)/etc/models/noahark/imageClassify/cv_imageClassify \
@@ -3945,11 +3962,15 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6525/proprietary/vendor/firmware/silead.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/silead.elf \
     vendor/infinix/X6525/proprietary/vendor/firmware/soter.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/soter.elf \
     vendor/infinix/X6525/proprietary/vendor/lib/MemsicAlgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/MemsicAlgo.so \
+    vendor/infinix/X6525/proprietary/vendor/lib/android.hardware.bluetooth.audio-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.bluetooth.audio-impl.so \
     vendor/infinix/X6525/proprietary/vendor/lib/arm.graphics-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/arm.graphics-V1-ndk.so \
     vendor/infinix/X6525/proprietary/vendor/lib/arm.graphics-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/arm.graphics-V1-ndk_platform.so \
     vendor/infinix/X6525/proprietary/vendor/lib/arm.graphics-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/arm.graphics-V2-ndk.so \
     vendor/infinix/X6525/proprietary/vendor/lib/arm.graphics-V2-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/arm.graphics-V2-ndk_platform.so \
     vendor/infinix/X6525/proprietary/vendor/lib/arm.graphics-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/arm.graphics-V3-ndk.so \
+    vendor/infinix/X6525/proprietary/vendor/lib/audioclient-types-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/audioclient-types-aidl-cpp.so \
+    vendor/infinix/X6525/proprietary/vendor/lib/av-types-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/av-types-aidl-cpp.so \
+    vendor/infinix/X6525/proprietary/vendor/lib/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@1.0-impl.so \
     vendor/infinix/X6525/proprietary/vendor/lib/camera.device@3.2-impl-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.2-impl-sprd.so \
     vendor/infinix/X6525/proprietary/vendor/lib/camera.device@3.3-impl-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.3-impl-sprd.so \
     vendor/infinix/X6525/proprietary/vendor/lib/camera.device@3.4-external-impl-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.4-external-impl-sprd.so \
@@ -3958,9 +3979,19 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6525/proprietary/vendor/lib/camera.device@3.5-impl-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.5-impl-sprd.so \
     vendor/infinix/X6525/proprietary/vendor/lib/camera.device@3.6-external-impl-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.6-external-impl-sprd.so \
     vendor/infinix/X6525/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
+    vendor/infinix/X6525/proprietary/vendor/lib/framework-permission-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/framework-permission-aidl-cpp.so \
+    vendor/infinix/X6525/proprietary/vendor/lib/hw/android.hardware.audio.effect@7.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio.effect@7.0-impl.so \
+    vendor/infinix/X6525/proprietary/vendor/lib/hw/android.hardware.audio@7.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@7.1-impl.so \
+    vendor/infinix/X6525/proprietary/vendor/lib/hw/android.hardware.broadcastradio@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.broadcastradio@1.0-impl.so \
     vendor/infinix/X6525/proprietary/vendor/lib/hw/android.hardware.gnss@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.gnss@2.1-impl.so \
+    vendor/infinix/X6525/proprietary/vendor/lib/hw/android.hardware.renderscript@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.renderscript@1.0-impl.so \
+    vendor/infinix/X6525/proprietary/vendor/lib/hw/audio.bluetooth.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.bluetooth.default.so \
     vendor/infinix/X6525/proprietary/vendor/lib/hw/audio.bluetooth.ums9230.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.bluetooth.ums9230.so \
+    vendor/infinix/X6525/proprietary/vendor/lib/hw/audio.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.default.so \
     vendor/infinix/X6525/proprietary/vendor/lib/hw/audio.primary.whale.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.whale.so \
+    vendor/infinix/X6525/proprietary/vendor/lib/hw/audio.r_submix.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.r_submix.default.so \
+    vendor/infinix/X6525/proprietary/vendor/lib/hw/audio.usb.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.usb.default.so \
+    vendor/infinix/X6525/proprietary/vendor/lib/hw/bootctrl.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/bootctrl.default.so \
     vendor/infinix/X6525/proprietary/vendor/lib/hw/dpu.unisoc.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/dpu.unisoc.so \
     vendor/infinix/X6525/proprietary/vendor/lib/hw/enhance.unisoc.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/enhance.unisoc.so \
     vendor/infinix/X6525/proprietary/vendor/lib/hw/face.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/face.default.so \
@@ -3972,13 +4003,17 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6525/proprietary/vendor/lib/hw/libfsm_sdg_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/libfsm_sdg_hal.so \
     vendor/infinix/X6525/proprietary/vendor/lib/hw/liblowi_wifihal.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/liblowi_wifihal.so \
     vendor/infinix/X6525/proprietary/vendor/lib/hw/libwifi-hal-unisoc.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/libwifi-hal-unisoc.so \
+    vendor/infinix/X6525/proprietary/vendor/lib/hw/local_time.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/local_time.default.so \
+    vendor/infinix/X6525/proprietary/vendor/lib/hw/power.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.default.so \
     vendor/infinix/X6525/proprietary/vendor/lib/hw/sensors.unisoc.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.unisoc.so \
+    vendor/infinix/X6525/proprietary/vendor/lib/hw/thermal.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal.default.so \
     vendor/infinix/X6525/proprietary/vendor/lib/hw/unisoc.bootctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/unisoc.bootctrl.so \
     vendor/infinix/X6525/proprietary/vendor/lib/hw/vendor.sprd.hardware.connmgr@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.sprd.hardware.connmgr@1.0-impl.so \
     vendor/infinix/X6525/proprietary/vendor/lib/hw/vendor.sprd.hardware.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.sprd.hardware.gnss@1.0-impl.so \
     vendor/infinix/X6525/proprietary/vendor/lib/hw/vendor.sprd.hardware.thermal@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.sprd.hardware.thermal@2.0-impl.so \
     vendor/infinix/X6525/proprietary/vendor/lib/hw/vendor.sprd.hardware.trusty-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.sprd.hardware.trusty-impl.so \
     vendor/infinix/X6525/proprietary/vendor/lib/hw/vendor.sprd.hardware.wcn@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.sprd.hardware.wcn@1.0-impl.so \
+    vendor/infinix/X6525/proprietary/vendor/lib/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.default.so \
     vendor/infinix/X6525/proprietary/vendor/lib/hw/vulkan.ums9230.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.ums9230.so \
     vendor/infinix/X6525/proprietary/vendor/lib/libAlgoServiceAdapter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAlgoServiceAdapter.so \
     vendor/infinix/X6525/proprietary/vendor/lib/libGLES_mali_cl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGLES_mali_cl.so \
@@ -3988,15 +4023,23 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6525/proprietary/vendor/lib/lib_crypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_crypto.so \
     vendor/infinix/X6525/proprietary/vendor/lib/lib_hdr10plus_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_hdr10plus_tm.so \
     vendor/infinix/X6525/proprietary/vendor/lib/libalsa_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalsa_utils.so \
+    vendor/infinix/X6525/proprietary/vendor/lib/libalsautils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalsautils.so \
     vendor/infinix/X6525/proprietary/vendor/lib/libarcsoft_low_light_shot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_low_light_shot.so \
     vendor/infinix/X6525/proprietary/vendor/lib/libatci.so:$(TARGET_COPY_OUT_VENDOR)/lib/libatci.so \
+    vendor/infinix/X6525/proprietary/vendor/lib/libaudioclient_aidl_conversion.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioclient_aidl_conversion.so \
     vendor/infinix/X6525/proprietary/vendor/lib/libaudiodump.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiodump.so \
+    vendor/infinix/X6525/proprietary/vendor/lib/libaudiofoundation.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiofoundation.so \
     vendor/infinix/X6525/proprietary/vendor/lib/libaudiomiscctl_whale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiomiscctl_whale.so \
     vendor/infinix/X6525/proprietary/vendor/lib/libavcodec-58.so:$(TARGET_COPY_OUT_VENDOR)/lib/libavcodec-58.so \
     vendor/infinix/X6525/proprietary/vendor/lib/libavutil-56.so:$(TARGET_COPY_OUT_VENDOR)/lib/libavutil-56.so \
+    vendor/infinix/X6525/proprietary/vendor/lib/libbluetooth_audio_session.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session.so \
+    vendor/infinix/X6525/proprietary/vendor/lib/libbluetooth_audio_session_aidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session_aidl.so \
     vendor/infinix/X6525/proprietary/vendor/lib/libbqbbt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbqbbt.so \
     vendor/infinix/X6525/proprietary/vendor/lib/libbt-sprd_suite.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbt-sprd_suite.so \
     vendor/infinix/X6525/proprietary/vendor/lib/libbt-ssp_bt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbt-ssp_bt.so \
+    vendor/infinix/X6525/proprietary/vendor/lib/libcamera2ndk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera2ndk_vendor.so \
+    vendor/infinix/X6525/proprietary/vendor/lib/libcodec2_hidl@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_hidl@1.1.so \
+    vendor/infinix/X6525/proprietary/vendor/lib/libcodec2_hidl_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_hidl_plugin.so \
     vendor/infinix/X6525/proprietary/vendor/lib/libcodec2_unisoc_av1dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_unisoc_av1dec.so \
     vendor/infinix/X6525/proprietary/vendor/lib/libcodec2_unisoc_avcdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_unisoc_avcdec.so \
     vendor/infinix/X6525/proprietary/vendor/lib/libcodec2_unisoc_avcenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_unisoc_avcenc.so \
@@ -4041,6 +4084,7 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6525/proprietary/vendor/lib/liblte.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblte.so \
     vendor/infinix/X6525/proprietary/vendor/lib/libmapuser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmapuser.so \
     vendor/infinix/X6525/proprietary/vendor/lib/libmediahdrtosdrtransform.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmediahdrtosdrtransform.so \
+    vendor/infinix/X6525/proprietary/vendor/lib/libmediautils_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmediautils_vendor.so \
     vendor/infinix/X6525/proprietary/vendor/lib/libmemion.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmemion.so \
     vendor/infinix/X6525/proprietary/vendor/lib/libnavcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnavcore.so \
     vendor/infinix/X6525/proprietary/vendor/lib/libnpi_rtc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnpi_rtc.so \
@@ -4070,7 +4114,11 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6525/proprietary/vendor/lib/libsecrpmbdata.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecrpmbdata.so \
     vendor/infinix/X6525/proprietary/vendor/lib/libsecrpmbdata_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecrpmbdata_platform.so \
     vendor/infinix/X6525/proprietary/vendor/lib/libsensorlistcfg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorlistcfg.so \
+    vendor/infinix/X6525/proprietary/vendor/lib/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorndkbridge.so \
     vendor/infinix/X6525/proprietary/vendor/lib/libsensornpi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensornpi.so \
+    vendor/infinix/X6525/proprietary/vendor/lib/libsfplugin_ccodec_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsfplugin_ccodec_utils.so \
+    vendor/infinix/X6525/proprietary/vendor/lib/libshmemcompat.so:$(TARGET_COPY_OUT_VENDOR)/lib/libshmemcompat.so \
+    vendor/infinix/X6525/proprietary/vendor/lib/libshmemutil.so:$(TARGET_COPY_OUT_VENDOR)/lib/libshmemutil.so \
     vendor/infinix/X6525/proprietary/vendor/lib/libsl_fp_impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsl_fp_impl.so \
     vendor/infinix/X6525/proprietary/vendor/lib/libsoter_trusty.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsoter_trusty.so \
     vendor/infinix/X6525/proprietary/vendor/lib/libsprd_omx_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsprd_omx_core.so \
@@ -4078,7 +4126,9 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6525/proprietary/vendor/lib/libsprdaudiohal_deathhandlerv7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsprdaudiohal_deathhandlerv7.so \
     vendor/infinix/X6525/proprietary/vendor/lib/libsprdaudiohalv7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsprdaudiohalv7.so \
     vendor/infinix/X6525/proprietary/vendor/lib/libsprdfaceid.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsprdfaceid.so \
+    vendor/infinix/X6525/proprietary/vendor/lib/libstagefright_bufferpool@2.0.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_bufferpool@2.0.1.so \
     vendor/infinix/X6525/proprietary/vendor/lib/libstagefright_soft_mjpgdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_mjpgdec.so \
+    vendor/infinix/X6525/proprietary/vendor/lib/libstagefright_softomx_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_softomx_plugin.so \
     vendor/infinix/X6525/proprietary/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
     vendor/infinix/X6525/proprietary/vendor/lib/libsupl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsupl.so \
     vendor/infinix/X6525/proprietary/vendor/lib/libswresample-3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libswresample-3.so \
@@ -4088,17 +4138,23 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6525/proprietary/vendor/lib/libteecPlatform.so:$(TARGET_COPY_OUT_VENDOR)/lib/libteecPlatform.so \
     vendor/infinix/X6525/proprietary/vendor/lib/libteeproduction.so:$(TARGET_COPY_OUT_VENDOR)/lib/libteeproduction.so \
     vendor/infinix/X6525/proprietary/vendor/lib/libtinycompress_unisoc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress_unisoc.so \
+    vendor/infinix/X6525/proprietary/vendor/lib/libtinyxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml.so \
     vendor/infinix/X6525/proprietary/vendor/lib/libtracedump.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtracedump.so \
+    vendor/infinix/X6525/proprietary/vendor/lib/libtrusty.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrusty.so \
     vendor/infinix/X6525/proprietary/vendor/lib/libtrustyHalHelper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrustyHalHelper.so \
     vendor/infinix/X6525/proprietary/vendor/lib/libturboctl_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libturboctl_vendor.so \
     vendor/infinix/X6525/proprietary/vendor/lib/libunisocpreprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/libunisocpreprocessing.so \
+    vendor/infinix/X6525/proprietary/vendor/lib/libvibrator.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvibrator.so \
     vendor/infinix/X6525/proprietary/vendor/lib/libvideo_share_memory.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideo_share_memory.so \
     vendor/infinix/X6525/proprietary/vendor/lib/libvirtrpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvirtrpmb.so \
+    vendor/infinix/X6525/proprietary/vendor/lib/libvpx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpx.so \
     vendor/infinix/X6525/proprietary/vendor/lib/libvsp_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvsp_ca.so \
     vendor/infinix/X6525/proprietary/vendor/lib/libwcn-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwcn-vendor.so \
     vendor/infinix/X6525/proprietary/vendor/lib/libwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwifi-hal.so \
     vendor/infinix/X6525/proprietary/vendor/lib/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwpa_client.so \
     vendor/infinix/X6525/proprietary/vendor/lib/libwvaidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvaidl.so \
+    vendor/infinix/X6525/proprietary/vendor/lib/mediacas/libclearkeycasplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediacas/libclearkeycasplugin.so \
+    vendor/infinix/X6525/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/infinix/X6525/proprietary/vendor/lib/npidevice/PQTune.ums9230.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/PQTune.ums9230.so \
     vendor/infinix/X6525/proprietary/vendor/lib/npidevice/autotestfinger.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/autotestfinger.so \
     vendor/infinix/X6525/proprietary/vendor/lib/npidevice/autotestotg.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/autotestotg.so \
@@ -4150,8 +4206,11 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6525/proprietary/vendor/lib/npidevice/libylogtopc.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/libylogtopc.so \
     vendor/infinix/X6525/proprietary/vendor/lib/npidevice/nativemmifinger.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/nativemmifinger.so \
     vendor/infinix/X6525/proprietary/vendor/lib/oemlock_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib/oemlock_ca.so \
+    vendor/infinix/X6525/proprietary/vendor/lib/shared-file-region-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/shared-file-region-aidl-cpp.so \
     vendor/infinix/X6525/proprietary/vendor/lib/soundfx/libbundlewrapper2.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libbundlewrapper2.so \
     vendor/infinix/X6525/proprietary/vendor/lib/soundfx/libdtsaudio.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdtsaudio.so \
+    vendor/infinix/X6525/proprietary/vendor/lib/soundfx/libdynproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdynproc.so \
+    vendor/infinix/X6525/proprietary/vendor/lib/soundfx/libhapticgenerator.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libhapticgenerator.so \
     vendor/infinix/X6525/proprietary/vendor/lib/soundfx/libsprdvoiceprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libsprdvoiceprocessing.so \
     vendor/infinix/X6525/proprietary/vendor/lib/vendor.sprd.hardware.algoservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.sprd.hardware.algoservice@1.0.so \
     vendor/infinix/X6525/proprietary/vendor/lib/vendor.sprd.hardware.boot@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.sprd.hardware.boot@1.2.so \
@@ -4174,11 +4233,15 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6525/proprietary/vendor/lib/vendor.unisoc.hardware.radio.sim-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.unisoc.hardware.radio.sim-V1-ndk.so \
     vendor/infinix/X6525/proprietary/vendor/lib/vendor.unisoc.hardware.radio.voice-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.unisoc.hardware.radio.voice-V1-ndk.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/MemsicAlgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/MemsicAlgo.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/android.hardware.bluetooth.audio-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.bluetooth.audio-impl.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/arm.graphics-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/arm.graphics-V1-ndk.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/arm.graphics-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/arm.graphics-V1-ndk_platform.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/arm.graphics-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/arm.graphics-V2-ndk.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/arm.graphics-V2-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/arm.graphics-V2-ndk_platform.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/arm.graphics-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/arm.graphics-V3-ndk.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/audioclient-types-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/audioclient-types-aidl-cpp.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/av-types-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/av-types-aidl-cpp.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@1.0-impl.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/camera.device@3.2-impl-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.2-impl-sprd.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/camera.device@3.3-impl-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.3-impl-sprd.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/camera.device@3.4-external-impl-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.4-external-impl-sprd.so \
@@ -4188,8 +4251,18 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6525/proprietary/vendor/lib64/camera.device@3.6-external-impl-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.6-external-impl-sprd.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/cplog_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/cplog_common.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/framework-permission-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/framework-permission-aidl-cpp.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/hw/android.hardware.audio.effect@7.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio.effect@7.0-impl.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/hw/android.hardware.audio@7.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio@7.1-impl.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/hw/android.hardware.broadcastradio@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.broadcastradio@1.0-impl.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/hw/android.hardware.gnss@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.1-impl.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/hw/android.hardware.renderscript@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.renderscript@1.0-impl.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/hw/audio.bluetooth.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.bluetooth.default.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/hw/audio.bluetooth.ums9230.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.bluetooth.ums9230.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/hw/audio.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.default.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/hw/audio.r_submix.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.default.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/hw/audio.usb.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.usb.default.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/hw/bootctrl.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/bootctrl.default.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/hw/dpu.unisoc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/dpu.unisoc.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/hw/enhance.unisoc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/enhance.unisoc.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/hw/face.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/face.default.so \
@@ -4202,7 +4275,10 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6525/proprietary/vendor/lib64/hw/libfsm_sdg_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/libfsm_sdg_hal.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/hw/liblowi_wifihal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/liblowi_wifihal.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/hw/libwifi-hal-unisoc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/libwifi-hal-unisoc.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/hw/local_time.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/local_time.default.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/hw/power.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/power.default.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/hw/sensors.unisoc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.unisoc.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/hw/thermal.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/thermal.default.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/hw/unisoc.bootctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/unisoc.bootctrl.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/hw/vendor.sprd.hardware.algoservice@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.sprd.hardware.algoservice@1.0-impl.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/hw/vendor.sprd.hardware.connmgr@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.sprd.hardware.connmgr@1.0-impl.so \
@@ -4210,25 +4286,36 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6525/proprietary/vendor/lib64/hw/vendor.sprd.hardware.thermal@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.sprd.hardware.thermal@2.0-impl.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/hw/vendor.sprd.hardware.trusty-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.sprd.hardware.trusty-impl.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/hw/vendor.sprd.hardware.wcn@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.sprd.hardware.wcn@1.0-impl.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vibrator.default.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/hw/vulkan.ums9230.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.ums9230.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libAlgoServiceAdapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libAlgoServiceAdapter.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libGLES_mali_cl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGLES_mali_cl.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libQstAlgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQstAlgo.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libWhite_point_shift.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libWhite_point_shift.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/lib_android_keymaster_keymint_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_android_keymaster_keymint_utils.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/lib_crypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_crypto.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/lib_hdr10plus_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_hdr10plus_tm.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libaiactiver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaiactiver.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libaiactiver_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaiactiver_core.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/libalsautils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalsautils.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libarcsoft_low_light_shot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_low_light_shot.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libatci.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libatci.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/libaudioclient_aidl_conversion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioclient_aidl_conversion.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/libaudiofoundation.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiofoundation.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libavcodec-58.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libavcodec-58.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libavutil-56.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libavutil-56.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/libbinderdebug.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbinderdebug.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/libbluetooth_audio_session.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/libbluetooth_audio_session_aidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session_aidl.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libbt-sprd_suite.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbt-sprd_suite.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libbt-ssp_bt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbt-ssp_bt.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/libcamera2ndk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera2ndk_vendor.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libcodec2_unisoc_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_unisoc_common.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libcodec2_unisoc_deintl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_unisoc_deintl.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libcodec2_unisoc_imaadpcm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_unisoc_imaadpcm.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libcodec2_unisoc_store.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_unisoc_store.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/libcppbor_external.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcppbor_external.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/libcppcose_rkp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcppcose_rkp.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libdav1d.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdav1d.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libdts-eagle-shared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdts-eagle-shared.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libdtsdsec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdtsdsec.so \
@@ -4245,12 +4332,16 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6525/proprietary/vendor/lib64/libgnssmgt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgnssmgt.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libgoodixhwfingerprint.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgoodixhwfingerprint.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libgpudataproducer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpudataproducer.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/libhwc2onfbadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwc2onfbadapter.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libimageClassify.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimageClassify.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libimpl-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimpl-ril.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libiwnpi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libiwnpi.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libjpeg_hw_sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjpeg_hw_sprd.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libjpegenc_sw_sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjpegenc_sw_sprd.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libkernelbootcp.trusty.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkernelbootcp.trusty.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/libkeymint.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymint.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/libkeystore-engine-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeystore-engine-wifi-hidl.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/libkeystore-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeystore-wifi-hidl.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/liblcsagent.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblcsagent.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/liblcscp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblcscp.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/liblcsmgt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblcsmgt.so \
@@ -4259,6 +4350,7 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6525/proprietary/vendor/lib64/liblte.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblte.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libmapuser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmapuser.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libmediahdrtosdrtransform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmediahdrtosdrtransform.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/libmediautils_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmediautils_vendor.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libmemion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmemion.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libminizip.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libminizip.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libmorpho_HDSR.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_HDSR.so \
@@ -4288,14 +4380,20 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6525/proprietary/vendor/lib64/libsecrpmbdata.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecrpmbdata.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libsecrpmbdata_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecrpmbdata_platform.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libsensorlistcfg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorlistcfg.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorndkbridge.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libsensornpi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensornpi.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/libsfplugin_ccodec_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsfplugin_ccodec_utils.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/libshmemcompat.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libshmemcompat.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/libshmemutil.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libshmemutil.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libsl_fp_impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsl_fp_impl.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/libsoft_attestation_cert.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsoft_attestation_cert.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libsoter_trusty.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsoter_trusty.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libsprd_omx_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsprd_omx_core.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libsprdaudiohal@7.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsprdaudiohal@7.0.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libsprdaudiohal_deathhandlerv7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsprdaudiohal_deathhandlerv7.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libsprdaudiohalv7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsprdaudiohalv7.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libsprdfaceid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsprdfaceid.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/libstagefright_bufferpool@2.0.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_bufferpool@2.0.1.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libsupl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsupl.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libswresample-3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswresample-3.so \
@@ -4305,18 +4403,23 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6525/proprietary/vendor/lib64/libteecPlatform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libteecPlatform.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libteeproduction.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libteeproduction.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libtinycompress_unisoc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinycompress_unisoc.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/libtinyxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libtneclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtneclient.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libtnev.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtnev.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libtranlog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtranlog.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/libtrusty.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtrusty.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libtrustyHalHelper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtrustyHalHelper.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libturboctl_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libturboctl_vendor.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/libvibrator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvibrator.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libvideo_share_memory.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideo_share_memory.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libvirtrpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvirtrpmb.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libvsp_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvsp_ca.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libwcn-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwcn-vendor.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpa_client.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/mediacas/libclearkeycasplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediacas/libclearkeycasplugin.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libdrmclearkeyplugin.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/npidevice/PQTune.ums9230.so:$(TARGET_COPY_OUT_VENDOR)/lib64/npidevice/PQTune.ums9230.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/npidevice/autotestwifi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/npidevice/autotestwifi.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/npidevice/libFactoryRadioTest.so:$(TARGET_COPY_OUT_VENDOR)/lib64/npidevice/libFactoryRadioTest.so \
@@ -4327,8 +4430,11 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6525/proprietary/vendor/lib64/npidevice/libsoter_checkx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/npidevice/libsoter_checkx.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/oemlock_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/oemlock_ca.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/power.sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/power.sprd.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/shared-file-region-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/shared-file-region-aidl-cpp.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/soundfx/libbundlewrapper2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libbundlewrapper2.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/soundfx/libdtsaudio.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libdtsaudio.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/soundfx/libdynproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libdynproc.so \
+    vendor/infinix/X6525/proprietary/vendor/lib64/soundfx/libhapticgenerator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libhapticgenerator.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/vendor.silead.hardware.fingerprintext@1.0-adapter-helper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.silead.hardware.fingerprintext@1.0-adapter-helper.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/vendor.silead.hardware.fingerprintext@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.silead.hardware.fingerprintext@1.0.so \
     vendor/infinix/X6525/proprietary/vendor/lib64/vendor.sprd.hardware.algoservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.sprd.hardware.algoservice@1.0.so \
