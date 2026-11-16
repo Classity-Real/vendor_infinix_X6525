@@ -820,8 +820,6 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6525/proprietary/vendor/bin/antiflashing:$(TARGET_COPY_OUT_VENDOR)/bin/antiflashing \
     vendor/infinix/X6525/proprietary/vendor/bin/audiodumpclient:$(TARGET_COPY_OUT_VENDOR)/bin/audiodumpclient \
     vendor/infinix/X6525/proprietary/vendor/bin/bootcheckbox:$(TARGET_COPY_OUT_VENDOR)/bin/bootcheckbox \
-    vendor/infinix/X6525/proprietary/vendor/bin/boringssl_self_test32:$(TARGET_COPY_OUT_VENDOR)/bin/boringssl_self_test32 \
-    vendor/infinix/X6525/proprietary/vendor/bin/boringssl_self_test64:$(TARGET_COPY_OUT_VENDOR)/bin/boringssl_self_test64 \
     vendor/infinix/X6525/proprietary/vendor/bin/btools:$(TARGET_COPY_OUT_VENDOR)/bin/btools \
     vendor/infinix/X6525/proprietary/vendor/bin/charge:$(TARGET_COPY_OUT_VENDOR)/bin/charge \
     vendor/infinix/X6525/proprietary/vendor/bin/charged:$(TARGET_COPY_OUT_VENDOR)/bin/charged \
